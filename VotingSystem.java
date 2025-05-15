@@ -10,7 +10,7 @@ public class VotingSystem extends JFrame implements ActionListener {
     private JButton voteButton;
     private JTextArea resultArea;
     
-    private String[] candidates = {"Candidate A", "Candidate B", "Candidate C"};
+    private String[] candidates = {"Candidate A", "Candidate B", "Candidate E"};
     private int[] votes = new int[candidates.length];
     
     public VotingSystem() {
